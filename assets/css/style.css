@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans:wght@300&display=swap');
+.contenedor{
+    width: 80%;
+    background-color: #cccccc;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+h1{
+    padding-top: 10px;
+    
+}
+hr{
+    margin: 5px 0;
+}
+#campoTarea{
+    width: 80%;
+}
+#btn{
+    width: 15%;
+}
+.input{
+    margin-bottom: 15px;
+}
+.resultados {
+    display: flex;
+    flex-direction: column;
+}
+.h4Resultados{
+    margin-bottom: 5px;
+    font-size: 0.8em;
+}
+.tareas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ideTareas{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    flex-wrap: wrap;
+ 
+    
+}
+#titulos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.h4IdeTareas{
+    font-size: 0.7em;
+    margin: auto;
+}
+#mostrarTarea{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 7px;
+    /*justify-content: space-between;*/
+
+
+}
+li{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin: auto;
+}

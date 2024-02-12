@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Todo List</h1>
+        <hr>
+        <div class="input">
+            <label for="campoTarea">Nueva Tarea</label><br/>
+            <input type="text" name="campoTarea" id="campoTarea">
+            <input type="button" value="Agregar" id="btn">
+        </div>
+        <div class="tareas">
+            <div class="resultados">
+                <h4 class="h4Resultados">Total: <span id="totalTareas"></span></h4>
+                <h4 class="h4Resultados">Realizadas: <span id="tareasRealizadas"></span></h4>
+            </div>
+            <div class="ideTareas">
+                <div id="titulos">
+                    <h4 class="h4IdeTareas">ID</h4>
+                    <h4 class="h4IdeTareas">Tarea</h4>
+                    <h4 class="h4IdeTareas">Estado</h4>
+                    <h4 class="h4IdeTareas">Eliminar</h4>
+                    <br>
+                </div>
+                <ul id="mostrarTarea"></ul>
+            </div>
+            
+        </div>
+        
+    </div>
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
